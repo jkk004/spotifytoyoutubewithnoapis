@@ -20,10 +20,14 @@ def song_name_generator(i):
     for j in range(res[i],res[i]+100):
         if f.text[j] == "<":
             tally += 1
-        if tally == 2:
-            break
+        if f.text[j] == "&":
+            tally -= 1
         if tally == 1:
             check += f.text[j]
+        if tally == 2:
+            break
+        if f.text[j] == ";":
+            tally += 1
         if f.text[j] == ">":
             tally += 1
     song_names.append(check)
