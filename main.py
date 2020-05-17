@@ -32,7 +32,7 @@ def song_name_generator(i):
             tally += 1
     song_names.append(check)
 def artist_generator(i):
-    res1 = [m.start() for m in re.finditer("</span></a> ", f.text)]
+    res1 = [m.start() for m in re.finditer('</span></a> ', f.text)]
     check1 = ""
     tally = 0
     for z in range(res1[i]-19,res1[i]):
