@@ -66,7 +66,7 @@ for comb in combined:
     check = ""
     r = requests.get("https://www.youtube.com/results?search_query=" + comb)
     results = r.text
-    loc = results.index("/watch")
+    loc = results.index("/watch?")
     for i in range(loc,loc + 100):
         tally = 1
         if results[i] == '"':
