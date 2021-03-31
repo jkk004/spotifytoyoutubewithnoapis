@@ -3,7 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/62976976/113086450-7b055100-9196-11eb-98be-c485320385f6.png)
 
--The gist of this program is to get the first search result of "SONG NAME official", because most all the times, the "song name + official" had a solid search result, even if it wasn't actually from the official artist's youtube channel/
+-The gist of this program is to get the first search result of "SONG NAME official", because just about all the times, the "song name + official" has a solid search result, even if the first isn't actually from the official artist's youtube channel. Usually, the unofficial top search is perfect.
 
 I did this with no APIs, which means I am very limited in what I can do. I didn't use the Spotify/Youtube APIs because for the user, it is quite the hassle to sign up for all that and go through with their ordeals. Overall, I'm satisfied with the result, and I felt I learned a lot.
 
